@@ -1,0 +1,301 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px !important;
+  }
+  .col-xl-3 {
+    max-width: 270px;
+  }
+  .cards-section {
+    width: 1170px;
+  }
+  /* #pricing .col-xl-3 {
+    width: 33.33%;
+  } */
+  /* .service-item {
+    width: 270px !important;
+  } */
+}
+@media (max-width: 1200px) {
+  .contact-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #map-contact {
+    height: 1300px;
+  }
+  #services .row.service-section {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  #hero {
+    width: 100vw;
+    height: 750px;
+  }
+  .contact {
+    width: 100vw;
+    height: 650px;
+  }
+  .team {
+    width: 100vw;
+    height: 900px;
+  }
+  
+  
+} 
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  #hero {
+    width: 100vw;
+  }
+  .contact {
+    width: 100vw;
+    height: 650px;
+  }
+  .team {
+    width: 100vw;
+    height: 900px;
+  }
+  
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  #hero {
+    width: 100vw;
+  }
+  .contact {
+    width: 100vw;
+    height: 650px;
+  }
+  .team {
+    width: 100vw;
+    height: 900px;
+  }
+}
+@media (max-width: 991px) {
+  .main-price {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+  .works-tile {
+    width: 33.33%;
+  }
+  .owl-carousel .owl-stage {
+    width:1200px !important;
+  }
+  #team .owl-stage-outer{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cards-section .owl-item {
+    margin-right: 30px;
+  }
+  #team .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service-section .owl-item {
+    margin-right: 0;
+  }
+  .works-tile {
+    width: 33.33%;
+  }
+  .owl-carousel .owl-stage {
+    width:1200px !important;
+  }
+  #team .owl-stage-outer{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #services .owl-stage-outer {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cards-section .owl-item{
+    margin-right: 5px;
+  }
+  #team .row, #services .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  #footer {
+    height: 200px;
+  }
+  .social-footer-icons {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 281.13px;
+    padding-left: 0;
+  }
+  .footer-logo img {
+    padding-left: 0;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .service-section .owl-item {
+    margin-right: 0;
+  }
+  .works-tile {
+    width: 33.33%;
+  }
+  .overlay h4 {
+    margin-top: 60px;
+  }
+  #happy-clients {
+    height: 700px;
+  }
+  .owl-carousel .owl-stage {
+    width:2000px !important;
+  }
+  
+  #team .owl-stage-outer {
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #services .owl-stage-outer {
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cards-section .owl-item {
+    margin-right: 5px;
+  }
+  #team .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .cocacola {
+    margin-left: 0;
+  }
+  .dropbox {
+    margin-left: 0;
+  }
+  .intel {
+    margin-left: 0;
+  }
+  .zendesk {
+    margin-left: 0;
+  }
+  .nokia {
+    margin-left: 0;
+  }
+  #clients .owl-carousel .owl-stage {
+    width: 2600px !important;
+  }
+  #clients .owl-stage-outer {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #clients .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 575px) {
+  .service-section .owl-item {
+    margin-right: 0;
+  }
+  .works-tile {
+    width: 100%;
+  }
+  .overlay h4 {
+    margin-top: 25%;
+    font-size: 20px;
+  }
+  .overlay p {
+    font-size: 16px;
+  }
+  #services .owl-stage-outer {
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #happy-clients {
+    height: 750px;
+  }
+  #team .owl-stage-outer {
+    width: 275px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .owl-carousel .owl-stage {
+    width: 1200px !important;
+  }
+  .cocacola {
+    margin-left: 0;
+  }
+  .dropbox {
+    margin-left: 0;
+  }
+  .intel {
+    margin-left: 0;
+  }
+  .zendesk {
+    margin-left: 0;
+  }
+  .nokia {
+    margin-left: 0;
+  }
+  .logo-client {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #clients .owl-carousel .owl-stage {
+    width:2600px !important;
+  }
+  #clients .owl-stage-outer {
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #clients .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .cards-section .owl-item {
+    margin-right: 5px;
+  }
+  #team .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .contact-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+  .single-line-input {
+    width: 200px;
+  }
+  .message {
+    width: 250px;
+  }
+  .submit {
+    margin-right: 0;
+  }
+  .social-footer-icons {
+    margin-right: 20vw;
+    margin-bottom: 20px;
+  }
+
+}
